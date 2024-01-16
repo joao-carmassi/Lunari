@@ -1,0 +1,113 @@
+:root {
+    --cor-destaque: #a246a2;
+    --cor-principal: black;
+    --cor-secundaria: rgb(54, 54, 54);
+    --cor-fonte: white;
+}
+
+body {
+    color: var(--cor-fonte);
+    font-size: 1rem;
+    line-height: normal;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    text-shadow: black 1px 1px 8px;
+}
+
+.container1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imgs/wallpapersden.com_the-final-night-hd-illustrator_3840x2160.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container1 span {
+    padding: 0 40px;
+    width: 250px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid var(--cor-fonte);
+    gap: 5%;
+    backdrop-filter: blur(20px);
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.5);
+}
+
+.container1 h1 {
+    text-align: center;
+}
+
+.container1__conteudo div {
+    margin: 15% 0;
+}
+
+.container1__conteudo div:nth-child(2) {
+    margin: 6% 0
+}
+
+.container1__conteudo div:nth-child(3) {
+    margin: 0;
+}
+
+
+.container1__conteudo input {
+    margin: 9px 0 0 0;
+    width: 100%;
+    padding: 4px;
+    font-size: 16px;
+    border-width: 0px;
+    border-color: var(--cor-fonte);
+    background-color: rgb(216, 216, 216);
+    color: var(--cor-principal);
+    border-style: solid;
+    border-radius: 7px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.container1__conteudo input:focus {
+    outline: none;
+    background-color: var(--cor-fonte);
+}
+
+.container1 p {
+    text-wrap: nowrap;
+    font-size: .75rem;
+    color: red;
+    margin: 5px 0;
+    text-shadow: black 1px 1px 8px;
+}
+
+.container1__conteudo button {
+    padding: 10px 40px;
+    border: 2px solid var(--cor-destaque);
+    border-radius: 7px;
+    margin: 0 10px;
+    transition-duration: .2s;
+    font-size: 1rem;
+    color: var(--cor-fonte);
+    background-color: transparent;
+}
+
+.container1__conteudo button:hover {
+    transform: scale(1.03);
+    background-color: var(--cor-destaque);
+}
+
+.container1__conteudo button:active {
+    transform: scale(.9);
+}
+
+.container1__conteudo div:nth-child(3) {
+    text-align: center;
+}
